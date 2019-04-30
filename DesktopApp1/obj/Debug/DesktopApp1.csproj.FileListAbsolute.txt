@@ -1,0 +1,10 @@
+D:\Programming\Visual studio projects\DesktopApp1\DesktopApp1\bin\Debug\DesktopApp1.exe.config
+D:\Programming\Visual studio projects\DesktopApp1\DesktopApp1\bin\Debug\DesktopApp1.exe
+D:\Programming\Visual studio projects\DesktopApp1\DesktopApp1\bin\Debug\DesktopApp1.pdb
+D:\Programming\Visual studio projects\DesktopApp1\DesktopApp1\obj\Debug\DesktopApp1.csprojAssemblyReference.cache
+D:\Programming\Visual studio projects\DesktopApp1\DesktopApp1\obj\Debug\DesktopApp1.Form1.resources
+D:\Programming\Visual studio projects\DesktopApp1\DesktopApp1\obj\Debug\DesktopApp1.Properties.Resources.resources
+D:\Programming\Visual studio projects\DesktopApp1\DesktopApp1\obj\Debug\DesktopApp1.csproj.GenerateResource.cache
+D:\Programming\Visual studio projects\DesktopApp1\DesktopApp1\obj\Debug\DesktopApp1.csproj.CoreCompileInputs.cache
+D:\Programming\Visual studio projects\DesktopApp1\DesktopApp1\obj\Debug\DesktopApp1.exe
+D:\Programming\Visual studio projects\DesktopApp1\DesktopApp1\obj\Debug\DesktopApp1.pdb
