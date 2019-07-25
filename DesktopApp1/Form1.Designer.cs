@@ -19,7 +19,6 @@ namespace DesktopApp1
             }
             base.Dispose(disposing);
         }
-
         #region Windows Form Designer generated code
 
         /// <summary>
@@ -31,9 +30,8 @@ namespace DesktopApp1
             this.components = new System.ComponentModel.Container();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
-            this.LMeaning = new System.Windows.Forms.Label();
             this.LWord = new System.Windows.Forms.Label();
-            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.LMeaning = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -64,19 +62,6 @@ namespace DesktopApp1
             this.splitContainer1.SplitterDistance = 87;
             this.splitContainer1.TabIndex = 0;
             // 
-            // LMeaning
-            // 
-            this.LMeaning.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.LMeaning.Font = new System.Drawing.Font("Tahoma", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LMeaning.ForeColor = System.Drawing.Color.White;
-            this.LMeaning.Location = new System.Drawing.Point(0, 0);
-            this.LMeaning.Name = "LMeaning";
-            this.LMeaning.Size = new System.Drawing.Size(556, 236);
-            this.LMeaning.TabIndex = 0;
-            this.LMeaning.Text = "Gaurav Atreya is the one who made this program, this displays the GRE words from " +
-    "a file and update the words as per the given timer.\r\n";
-            this.LMeaning.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // LWord
             // 
             this.LWord.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -90,11 +75,18 @@ namespace DesktopApp1
             this.LWord.Text = "Gaurav Atreya";
             this.LWord.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // openFileDialog1
+            // LMeaning
             // 
-            this.openFileDialog1.FileName = "WordList\\list1.txt";
-            this.openFileDialog1.InitialDirectory = "WordList";
-            this.openFileDialog1.FileOk += new System.ComponentModel.CancelEventHandler(this.openFileDialog1_FileOk);
+            this.LMeaning.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.LMeaning.Font = new System.Drawing.Font("Tahoma", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LMeaning.ForeColor = System.Drawing.Color.White;
+            this.LMeaning.Location = new System.Drawing.Point(0, 0);
+            this.LMeaning.Name = "LMeaning";
+            this.LMeaning.Size = new System.Drawing.Size(556, 236);
+            this.LMeaning.TabIndex = 0;
+            this.LMeaning.Text = "Gaurav Atreya is the one who made this program, this displays the GRE words from " +
+    "a file and update the words as per the given timer.\r\n";
+            this.LMeaning.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Form1
             // 
@@ -104,6 +96,7 @@ namespace DesktopApp1
             this.Controls.Add(this.splitContainer1);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
+            this.ShowInTaskbar = false;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.splitContainer1.Panel1.ResumeLayout(false);
@@ -115,12 +108,11 @@ namespace DesktopApp1
         }
 
         #endregion
-
-        private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.SplitContainer splitContainer1;
         private System.Windows.Forms.Label LWord;
         private System.Windows.Forms.Label LMeaning;
-        private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        public System.Windows.Forms.Timer timer1;
+
     }
 }
 

@@ -31,6 +31,7 @@ namespace DesktopApp1
             this.MinimizeBox = this.MaximizeBox = false; // not allowed to be minimized
             this.MinimumSize = this.MaximumSize = this.Size; // not allowed to be resized
             this.Opacity = 0.2;
+            Hide();
             //this.TransparencyKey = 
             this.BackColor = Color.Black; // the color key to transparent, choose a color that you don't use
         }
@@ -56,9 +57,9 @@ namespace DesktopApp1
             
         }
 
-        private void openFileDialog1_FileOk(object sender, CancelEventArgs e)
+        private void notifyIcon1_MouseDoubleClick(object sender, MouseEventArgs e)
         {
-
+            
         }
     }
 }
